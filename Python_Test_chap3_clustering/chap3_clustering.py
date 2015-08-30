@@ -75,5 +75,5 @@ for i in range(0, num_samples):
 print("Best post is %i with dist=%.2f"%(best_i, best_dist))
 
 vectorizer = CountVectorizer(min_df=1, stop_words='english')
-print(sorted(vectorizer.get_stop_words())[0:40])
+print(sorted(vectorizer.get_stop_words())[0:10])
 
